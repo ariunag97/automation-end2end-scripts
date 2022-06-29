@@ -83,7 +83,7 @@ public class UserRegistrationEnd2End {
         String[] fullName = emailAddress.substring(0, atSign).split("\\.");
         String firstName = fullName[1].substring(0,1).toUpperCase() + fullName[1].substring(1);
         String lastName = fullName[0].substring(0,1).toUpperCase() + fullName[0].substring(1);
-        String password = lastName+ "123" + firstName.charAt(0) + "!";
+        String password = lastName+ "123" + firstName.charAt(0) + "!!";
 
 
         WebElement firstNameInput = driver.findElement(By.id("customer_firstname"));

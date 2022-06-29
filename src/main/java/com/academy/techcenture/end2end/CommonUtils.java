@@ -15,9 +15,4 @@ public class CommonUtils {
 
         return email.toLowerCase();
     }
-
-    public static void main(String[] args) {
-
-
-    }
 }
